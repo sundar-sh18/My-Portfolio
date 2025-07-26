@@ -12,7 +12,6 @@ function App() {
       <div className="shader1"></div>
       <Nav/>
       <Home/>
-      
     </div>
       <About/>
     </>

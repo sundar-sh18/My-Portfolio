@@ -12,12 +12,12 @@ export default function Nav(){
     return(
         <nav>
             <div className="logo">
-               <a href='https://chatgpt.com/' >
+               <a href='/' >
                     <FontAwesomeIcon icon={faImage} />
                </a>
             </div>
             <div className="navi">
-               <a href='#/' >home</a>
+               <a href='/' >home</a>
                <a href='#about' >about</a>
                <a href='#projects' >projects</a>
                <a href='#resume' >resume</a>
