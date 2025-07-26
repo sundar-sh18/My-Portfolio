@@ -1,7 +1,6 @@
 import React from 'react';
 import './components.css';
 import Img from '../assets/Sundar_pic.JPG'
-import { motion } from "motion/react";
 
 export default function Home(){
 
@@ -19,14 +18,8 @@ export default function Home(){
                     <p>Web developer crafting responsive, user-friendly websites.
                         Focused on clean code, performance, and great user experience.</p>
                     <div className="buttons">
-                        <motion.button 
-                        initial={{ scale: 0 }} 
-                        animate={{ scale: 1 }}
-                         >Got a project?</motion.button>
-                        <motion.button
-                        whileHover={{ scale: 1.1 }}
-                        whileTap={{ scale: 0.95 }}
-                        >lets talk!</motion.button>
+                        <button>Got a project?</button>
+                        <button>lets talk!</button>
                     </div>
                 </div>
            </div>

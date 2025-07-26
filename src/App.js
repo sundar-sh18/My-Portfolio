@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Nav from './components/nav';
 import Home from './components/home';
-import About from './components/about'
+import About from './components/projects'
 
 
 function App() {

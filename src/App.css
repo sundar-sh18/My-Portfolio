@@ -9,10 +9,10 @@ body{
 
 .shader1{
   position: absolute;
-  top: -190px;
-  right: -190px;
-  height: 200px;
-  width: 200px;
+  top: 0px;
+  right: 0px;
+  height: 0px;
+  width: 0px;
   background-color: transparent;
   z-index: -1;
   border-radius: 100px;

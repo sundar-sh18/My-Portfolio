@@ -3,14 +3,17 @@
 
 
 body{
-    width: 100vw;
     overscroll-behavior: none;
 }
 
 :root{
 
     --icon-color: #8750ea;
+    --icon-dim: #412770;
     --bg-color: #0F0715;
+    --pro-bg: #050709;
+    --head-font : "Bruno Ace SC", sans-serif;
+    --h3:"Genos", sans-serif;
 }
 
 html{
@@ -268,6 +271,92 @@ font-family: "Genos", sans-serif;
 
 
 
-#about{
-    height: 100vh;
+.projects{
+   
+    color: white;
+    background-color: var(--pro-bg) ;
+}
+
+.pro-head{
+    margin: 4rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.pro-head h1{
+    text-transform: capitalize;
+    font-family: "Genos", sans-serif;
+    font-size: 3rem;
+    background: linear-gradient(to right, var(--icon-color),white);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 4rem  0 0 0;
+    margin: 0;
+}
+
+.pro-head h5{
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.projects-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.project{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    height: 670px;
+    gap: 5%;
+    border: 2px solid var(--icon-dim);
+    border-radius: 25px;
+    padding: 20px;
+    position: sticky;
+    top: 200px;
+    background-color: var(--pro-bg);
+    box-shadow: 0 0 800px -150px #8650eab7;
+}
+
+.pro-content{
+    width: 50%;
+}
+
+.pro-content h6{
+    color: var(--icon-color);
+    text-transform: capitalize;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-family: var(--head-font);
+}
+
+.pro-content h3{
+    font-family: var(--h3);
+    text-transform: uppercase;
+
+}
+
+.pro-content li{
+    list-style-type: none ;
+    line-height: 30px;
+}
+
+.pro-content li span{
+   padding-left: 15px;
+}
+
+.pro-content li::before{
+    content: '✓';
+    
+}
+
+.pro-img{
+    width: 50%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    border-radius: 0 25px 25px 0;
 }

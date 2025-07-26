@@ -18,7 +18,6 @@ export default function Nav(){
             </div>
             <div className="navi">
                <a href='/' >home</a>
-               <a href='#about' >about</a>
                <a href='#projects' >projects</a>
                <a href='#resume' >resume</a>
                <a href='#skills' >skills</a>
