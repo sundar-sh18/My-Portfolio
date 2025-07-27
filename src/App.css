@@ -1,21 +1,6 @@
 body{
-  background-color: #0F0715;
+  background-color: black;
 }
 
-.shade{
-  position: relative;
-  /* background-color: gray; */
-}
 
-.shader1{
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  height: 0px;
-  width: 0px;
-  background-color: transparent;
-  z-index: -1;
-  border-radius: 100px;
-  box-shadow: 0 0 600px 300px #8650eab7;
-}
 
