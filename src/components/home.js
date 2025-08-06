@@ -2,7 +2,6 @@ import React from 'react';
 import './components.css';
 // import Img from '../assets/Sundar_pic.JPG';
 import SplitText from '../reactBits/TextAnimations/SplitText/SplitText';
-import Lightning from '../reactBits/Backgrounds/Lightning/Lightning';
 import Nav from './nav';
 
 
@@ -12,16 +11,6 @@ export default function Home(){
 
     return(
     <>
-    
-        
-               <div style={{ width: '100%', height: '100vh', position: 'relative' }} className='spark'>
-              <Lightning
-                hue={260}
-                xOffset={-0.7}
-                speed={1}
-                intensity={1}
-                size={1}
-                />
                 <div id='/' className='Home'>
                     <Nav/>
                     {/* <div className='Sundar'>
@@ -50,11 +39,6 @@ export default function Home(){
                         </div>
                     </div>
                 </div>
-                
-            </div>
-            
-           
-           
     </>
     )
 }
