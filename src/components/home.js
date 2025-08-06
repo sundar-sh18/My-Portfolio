@@ -11,7 +11,7 @@ export default function Home(){
 
     return(
     <>
-                <div id='/' className='Home'>
+                <div id='home' className='Home' style={{height:'100vh'}}>
                     <Nav/>
                     {/* <div className='Sundar'>
                         <img src={Img} alt='Sundar S'/>
