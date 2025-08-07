@@ -1,6 +1,6 @@
 // import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faImage } from '@fortawesome/free-solid-svg-icons';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
 import './components.css';
 export default function Nav(){
 
@@ -11,11 +11,10 @@ export default function Nav(){
      
      
           <nav>
-            <div className="logo">
-               <a href='/' >
-                    <FontAwesomeIcon icon={faImage} />
+               <a href='/' className='nav-logo' >
+                    <FontAwesomeIcon icon={faCode} />
                </a>
-            </div>
+            
             <div className="navi">
                <a href='#home' >home</a>
                <a href='#projects' >projects</a>
