@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faImage } from '@fortawesome/free-solid-svg-icons';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
 import './components.css';
 
 
@@ -30,9 +30,7 @@ const Navbar = () => {
     <header className={`navbar ${showNavbar ? 'show' : ''}`}>
        <section>
             <div className="logo">
-               <a href='/' >
-                    <FontAwesomeIcon icon={faImage} />
-               </a>
+               <FontAwesomeIcon icon={faCode} />
             </div>
             <div className="navi">
                <a href='#home' >home</a>
