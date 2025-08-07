@@ -1,5 +1,9 @@
 import './components.css';
 import fig from '../assets/marquee-icon.png'
+import Smart from '../assets/attendance.png'
+import Ai from '../assets/ai.png'
+import Rig from '../assets/rig.png'
+import Portfolio from '../assets/portfolio.png'
 export default function Projects(){
 
 
@@ -18,6 +22,37 @@ export default function Projects(){
                         <li>NodeJs</li>
                         <img src={fig} alt="" />
                         <li>BootStrap</li>
+                        <img src={fig} alt="" />
+                        <li>Postman</li>
+                        <img src={fig} alt="" />
+                        <li>HTML5</li>
+                        <img src={fig} alt="" />
+                        <li>CSS3</li>
+                        <img src={fig} alt="" />
+                        <li>MongoDB</li>
+                        <img src={fig} alt="" />
+                        <li>Git</li>
+                        <img src={fig} alt="" />
+                        <img src={fig} alt="" />
+                        <li>JavaScript</li>
+                        <img src={fig} alt="" />
+                        <li>React</li>
+                        <img src={fig} alt="" />
+                        <li>SQL</li>
+                        <img src={fig} alt="" />
+                        <li>NodeJs</li>
+                        <img src={fig} alt="" />
+                        <li>BootStrap</li>
+                        <img src={fig} alt="" />
+                        <li>Postman</li>
+                        <img src={fig} alt="" />
+                        <li>HTML5</li>
+                        <img src={fig} alt="" />
+                        <li>CSS3</li>
+                        <img src={fig} alt="" />
+                        <li>MongoDB</li>
+                        <img src={fig} alt="" />
+                        <li>Git</li>
                         <img src={fig} alt="" />
                     </div>
                 </div>
@@ -38,8 +73,8 @@ export default function Projects(){
                         <li><span>Comprehensive Session Auditing</span></li>
                         <a type='button' href="https://github.com/sundar-sh18/Smart-Attendance-System" target='_blank' rel='noreferrer'>view project</a>
                     </div>
-                        <div className="pro-img">
-                            
+                    <div className="pro-img">
+                            <img src={Smart} alt="Attendance"/>
                     </div>
                 </div>
                    
@@ -55,7 +90,7 @@ export default function Projects(){
                         <a href="https://github.com/sundar-sh18/AI-Chatbot" target='_blank' rel='noreferrer'>view project</a>
                     </div>
                     <div className="pro-img">
-                        
+                        <img src={Ai} alt="ai chat bot"/>
                     </div>
                 </div>
                     
@@ -71,7 +106,7 @@ export default function Projects(){
                         <a href="https://github.com/sundar-sh18/Thrust-Test-Rig-with-IOT.git" target='_blank' rel='noreferrer'>view project</a>
                     </div>
                     <div className="pro-img">
-                        
+                        <img src={Rig} alt="iot"/>
                     </div>
                 </div>
                    
@@ -79,15 +114,19 @@ export default function Projects(){
                     <div className='pro-content'>
                         <h6>ui/ux</h6>
                         <h3>portfolio</h3>
-                        <p>Project was about precision and information. That’s all. Our design tem helps clients achieve their marketing Trager and branding that appeals to a website</p>
-                        <li><span></span></li>
-                        <li><span></span></li>
-                        <li><span></span></li>
-                        <li><span></span></li>
-                        <a href="/">view project</a>
+                        <p>A responsive and visually appealing web developer portfolio that reflects creativity and technical expertise.
+                        It showcases key projects with live demos and code links to highlight real-world skills.
+                        Built with clean UI/UX principles, ensuring smooth navigation and accessibility across devices.
+                        The design adapts seamlessly from desktop to mobile for a consistent user experience.
+                        Includes integrated contact and social links for easy communication and networking.</p>
+                        <li><span>Responsive Design</span></li>
+                        <li><span>Project Showcase with Live Demos</span></li>
+                        <li><span>Intuitive UI/UX</span></li>
+                        <li><span>Contact & Social Integration</span></li>
+                        <a href="https://github.com/sundar-sh18/My-Portfolio">view project</a>
                     </div>
                     <div className="pro-img">
-                        
+                        <img src={Portfolio} alt="ui/ux"/>
                     </div>
                 </div>
             </div>
