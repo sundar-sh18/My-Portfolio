@@ -34,8 +34,8 @@ export default function Home(){
                         <p>Web developer crafting responsive, user-friendly websites.
                             Focused on clean code, performance, and great user experience.</p>
                         <div className="buttons">
-                            <button>Got a project?</button>
-                            <button>lets talk!</button>
+                            <a href="#contact">Got a project?</a>
+                            <a href="#contact">lets talk!</a> 
                         </div>
                     </div>
                 </div>
