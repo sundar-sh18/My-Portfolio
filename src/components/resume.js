@@ -14,6 +14,7 @@ export default function Resume(){
                 <h1>My Resume</h1>
             </header>
             <div class="resume-content">
+                
                 <div class="education">
                     <h3 className='top'>education</h3>
                     <div class="present">
@@ -49,7 +50,7 @@ export default function Resume(){
                         </div>
                     </div>
                 </div>
-                <div class="work">
+                <div class="work" style={{display:'none'}}>
                     <h3 className='top'>Work experience</h3>
                 </div>
             </div>
