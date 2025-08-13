@@ -13,9 +13,7 @@ export default function Home(){
     <>
                 <div id='home' className='Home' style={{height:'100vh'}}>
                     <Nav/>
-                    {/* <div className='Sundar'>
-                        <img src={Img} alt='Sundar S'/>
-                    </div> */}
+                    
                     <div className='intro'> 
                     <SplitText
                             text="Hi, I Am Sundar."
