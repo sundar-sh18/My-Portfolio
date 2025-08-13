@@ -27,8 +27,8 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className={`navbar ${showNavbar ? 'show' : ''}`}>
-       <section>
+    <div className={`headNav ${showNavbar ? 'show' : ''}`}>
+
             <div className="logo">
                <FontAwesomeIcon icon={faCode} />
             </div>
@@ -39,8 +39,7 @@ const Navbar = () => {
                <a href='#skills' >skills</a>
                <a href='#contact' >contact</a>
             </div>
-       </section>
-    </header>
+    </div>
   );
 };
 
