@@ -28,4 +28,5 @@
 
 .shiny-text.disabled {
   animation: none;
+  color: white;
 }
