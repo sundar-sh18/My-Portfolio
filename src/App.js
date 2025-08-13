@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import './App.css';
 import Home from './components/home';
 import HeadNav from './components/headNav'
@@ -13,30 +13,18 @@ import ShinyText from './reactBits/TextAnimations/ShinyText/ShinyText';
 
 function App() {
 
-  const [loading, setLoading] = useState(true);
-
- useEffect(() => {
-    const handleLoad = () => {
-      setLoading(false);
-    };
-    window.addEventListener('load', handleLoad);
-    const timeout = setTimeout(() => {
-      setLoading(false);
-    }, 3000); 
-    return () => {
-      window.removeEventListener('load', handleLoad);
-      clearTimeout(timeout);
-    };
-  }, []);
+  const [isLoading, setIsLoading] = useState(true);
+  setTimeout(() => setIsLoading(false), 3000);
 
   return (
     <>
-    { loading ? 
-    <div className="loading">
-      <ShinyText text="Loading" disabled={false} speed={2} className='load' />
+    { isLoading ? (
+      <div className="loading">
+      <ShinyText text="Loading" disabled={false} speed={2} className='load ' />
     </div>
-        : 
-      <div>
+    ) : 
+      <div style={{ width: '100%'}}>
+        
         <HeadNav/>
         <ClickSpark
                     sparkColor='white'
@@ -48,7 +36,7 @@ function App() {
           <div style={{ width: '100%', height: '100vh', position: 'relative' }} className='spark'>
             <Lightning
               hue={260}
-              xOffset={-0.7}
+              xOffset={0}
               speed={1}
               intensity={1}
               size={1}
